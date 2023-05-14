@@ -71,3 +71,31 @@ body > * {
 .exit > a {
     text-decoration: none;
 }
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #363636;
+}
+
+.footer_on_bottom {
+  width: 100%;
+  background-color: #6d5656;
+}
+
+.footer_on_bottom > p {
+  color: #020203;
+  font-size: 3rem;
+  font-family: "Homenaje";
+  font-style: normal;
+}
